@@ -1,53 +1,84 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+ * {
+     margin: 0;
+     padding: 0;
+ }
 
-/* header section styles */
+ .header-container {
+     background-image: url(styels/images/banner/banner3.png);
+     background-repeat: no-repeat;
+     background-size: cover;
 
-.header-container {
+ }
 
-    text-align: right;
-    position: absolute;
-    background-image: url(styels/images/banner/banner3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+ .header-section {
 
-.header-setion {}
+     text-align: right;
+     margin-right: 15%;
+ }
 
-.header-text {
-    margin-right: 230px;
+ .header-text {
+     padding-top: 30%;
+     padding-bottom: 30%;
+ }
 
-}
+ .header-title {
+     margin-left: 70%;
+     padding-bottom: 10px;
+     font-weight: 700;
+     font-size: 40px;
+ }
 
-.header-title {
-    margin-top: 260px;
-    margin-left: 1000px;
-    padding-left: 50px;
-    font-weight: 700;
-    font-size: 65px;
-    color: #FFFFFF;
+ .header-des {
+     font-size: 14px;
+     font-weight: 400;
+     color: black;
+     padding-bottom: 20px;
+ }
 
-}
+ .header-btn {
+     padding: 10px;
+     border-radius: 5px;
+     font-size: 18px;
+     font-weight: bold;
+     color: deeppink;
+     border-color: blue;
+ }
 
-.header-des {
-    margin-left: 950px;
-    padding-left: 50px;
-    padding-top: 30px;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFFFFF;
+ /* image and text styles */
+ .my-failure-section {
+     margin-top: 15%;
+ }
 
-}
+ .my-failure {
+     display: flex;
+ }
 
-.header-btn {
-    margin-top: 20px;
-    margin-bottom: 290px;
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    color: rebeccapurple;
-}
+ .failure-text {
+     padding-top: 20%;
+     padding-left: 10%;
+ }
+
+ .failure-title {
+     padding-bottom: 20px;
+     padding-right: 50%;
+     font-size: 30px;
+     font-weight: 800;
+
+ }
+
+ .failure-des {
+     padding-bottom: 20px;
+     padding-right: 20%;
+     font-size: 14px;
+     font-weight: 400;
+ }
+
+ .text-list {
+     list-style-type: none;
+     padding-left: 30px;
+
+ }
+
+ .text-list li {
+     list-style-type: lower-alpha;
+ }
