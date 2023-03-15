@@ -141,3 +141,59 @@
      border-radius: 5px;
      font-weight: bold;
  }
+
+ /* footer section styles */
+ .footer-section {
+     background-color: black;
+ }
+
+ .footer-item {
+     display: flex;
+     margin: 10% 15% 0%;
+ }
+
+ .left-text {
+     margin-right: 30%;
+     padding: 20% 0;
+ }
+
+ .left-text-title {
+     padding-bottom: 10px;
+     font-size: 40px;
+     font-weight: 800;
+     color: white;
+ }
+
+ .left-text-des {
+     font-weight: bold;
+     color: white;
+ }
+
+ .right-text {
+     padding-top: 20%;
+ }
+
+ .right-text-title {
+     font-size: 25px;
+     padding-bottom: 10px;
+     color: white;
+ }
+
+ .right-text-email {
+     padding: 5px 10px;
+
+ }
+
+ .footer-btn {
+     font-size: 20px;
+     margin-top: 10px;
+     padding: 5px 10px;
+     background-color: cornflowerblue;
+     border-radius: 5px;
+     color: white;
+ }
+
+ .fa-brands {
+     background-color: white;
+     margin-top: 10px;
+ }
